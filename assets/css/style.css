@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+* {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(210, 164, 219);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(147, 114, 153);
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
